@@ -1,0 +1,26 @@
+{
+  "name": "datawarehouse_proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/style.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fedecba92/DataWarehouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fedecba92/DataWarehouse/issues"
+  },
+  "homepage": "https://github.com/Fedecba92/DataWarehouse#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

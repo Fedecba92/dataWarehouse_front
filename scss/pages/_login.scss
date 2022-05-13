@@ -1,0 +1,158 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $tercerary-color;
+}
+
+.login-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1240px;
+  height: 80%;
+  background-color: $just-white;
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-width: 337px;
+    height: 100%;
+    padding: 60px calc(25% - 180px);
+    position: relative;
+    margin: 0 auto;
+
+    &__title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    &__paragraph {
+      margin-bottom: 30px;
+    }
+
+    small {
+      color: $grey-text-color;
+      position: absolute;
+      bottom: 25px;
+      left: calc(50% - 113.72px);
+    }
+  }
+
+  .login-image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: $primary-color;
+    color: $just-white;
+    position: relative;
+    text-align: center;
+
+    @media screen and(max-width:748px) {
+      display: none;
+    }
+
+    &__text-box {
+      position: absolute;
+      bottom: 60px;
+      max-width: 300px;
+
+      h2 {
+        font-size: 2rem;
+        margin: 15px 0;
+      }
+      p {
+        line-height: 1.8rem;
+      }
+    }
+  }
+}
+
+.form-control {
+  input {
+    height: 2.6rem;
+    width: 100%;
+    border: 1px solid $grey-color;
+    border-radius: 3px;
+    margin: 0 0 15px 0;
+    padding-left: 10px;
+
+    &:focus {
+      border: 1px solid $tercerary-color;
+    }
+  }
+
+  .error {
+    border: 1px solid $error-color;
+    &:focus {
+      border: 1px solid $error-color;
+    }
+  }
+
+  .success {
+    border: 1px solid $success-color;
+    &:focus {
+      border: 1px solid $success-color;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    input {
+      width: 100%;
+    }
+    .login-form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+
+      &__title {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      &__paragraph {
+        margin-bottom: 10px;
+      }
+      small {
+        color: $grey-text-color;
+      }
+
+      .button-primary {
+        background-color: $primary-color;
+        color: $just-white;
+        width: 50%;
+      }
+
+      .login-form__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+
+        .form-control {
+          text-align: left;
+        }
+      }
+    }
+
+    .login-image {
+      height: 50%;
+      width: 100%;
+    }
+  }
+}

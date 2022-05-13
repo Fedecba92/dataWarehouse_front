@@ -1,0 +1,149 @@
+/*NAVIGATION STYLES START HERE*/
+
+header {
+  background-color: $primary-color;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+
+  .logo {
+    color: $just-white;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    display: block;
+    background-color: $just-white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    content: "";
+    position: absolute;
+  }
+
+  .nav-toggle-label span::before {
+    bottom: 7px;
+  }
+
+  .nav-toggle-label span::after {
+    top: 7px;
+  }
+
+  nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: $primary-color;
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 1em;
+      margin-left: 1em;
+    }
+
+    a {
+      color: $grey-color;
+      text-decoration: none;
+      font-size: 1.2rem;
+      opacity: 0;
+      transition: opacity 150ms ease-in-out;
+      &:hover {
+        color: $just-white;
+      }
+    }
+  }
+
+  .nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+  }
+
+  .nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 4rem;
+
+    .nav-toggle-label {
+      display: none;
+    }
+
+    .logo {
+      grid-column: 1 / 2;
+      margin: auto;
+    }
+
+    nav {
+      all: unset;
+      grid-column: 4/5;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 1em;
+      a {
+        opacity: 1;
+        position: relative;
+
+        &::after {
+          content: "";
+          display: block;
+          height: 2px;
+          background: $just-white;
+          position: absolute;
+          bottom: -1em;
+          left: 0;
+          right: 0;
+          transform: scale(0, 1);
+          transition: transform ease-in-out 250ms;
+        }
+
+        &:hover::after {
+          transform: scale(1, 1);
+        }
+      }
+
+      ul {
+        display: flex;
+
+        li {
+          margin-left: 3em;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

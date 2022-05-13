@@ -1,0 +1,12 @@
+.companies-table__header--row,
+.companies-table__body--row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr;
+  padding: 0 10px;
+}
+
+.companies-table__body--row {
+  &:hover {
+    background-color: $grey-color;
+  }
+}

@@ -1,0 +1,147 @@
+[
+    {
+        "name":"juan carlos perez",
+        "mail":"juancarlosPerez@gmail.com",
+        "country":{
+            "name":"Argentina",
+            "region":"latam"
+        },
+        "company":"naranjaX",
+        "position":"backend developer",
+        "preferredChannel":{
+            "instragram":"@juancaperez",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":95,
+        "avatar":"https://images.pexels.com/photos/10417389/pexels-photo-10417389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+        "name":"camila soledad pantó",
+        "mail":"camilapanto123@gmail.com",
+        "country":{
+            "name":"Brasil",
+            "region":"latam"
+        },
+        "company":"naranjaX",
+        "position":"backend developer",
+        "preferredChannel":{
+            "instragram":"@juancaperez",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":95,
+        "avatar":"https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+        "name":"agustín emanuel soria",
+        "mail":"agustinesoria@gmail.com",
+        "country":{
+            "name":"Argentina",
+            "region":"latam"
+        },
+        "company":"naranjaX",
+        "position":"backend developer",
+        "preferredChannel":{
+            "instragram":"@juancaperez",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":95,
+        "avatar":"https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name":"denver steven soria",
+        "mail":"denver-steven@gmail.com",
+        "country":{
+            "name":"Argentina",
+            "region":"latam"
+        },
+        "company":"naranjaX",
+        "position":"backend developer",
+        "preferredChannel":{
+            "instragram":"@juancaperez",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":95,
+        "avatar":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name":"Estefania Natalí Soria",
+        "mail":"stefisoria@gmail.com",
+        "country":{
+            "name":"Uruguay",
+            "region":"latam"
+        },
+        "company":"Netflix",
+        "position":"sales",
+        "preferredChannel":{
+            "llamada":"@stefiz",
+            "mensaje":"+5493512334455"
+        },
+        "interest":75,
+        "avatar":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name":"Milena Victoria Soria",
+        "mail":"milesoria@gmail.com",
+        "country":{
+            "name":"España",
+            "region":"latam"
+        },
+        "company":"Mercado Libre",
+        "position":"UX designer",
+        "preferredChannel":{
+            "instragram":"@milesoria89",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":50,
+        "avatar":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name":"Valentino Boetto",
+        "mail":"valenboetto@gmail.com",
+        "country":{
+            "name":"Mexico",
+            "region":"latam"
+        },
+        "company":"Globant",
+        "position":"UI designer",
+        "preferredChannel":{
+            "instragram":"@valeB",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":50,
+        "avatar":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name":"Juan Sbeghen",
+        "mail":"jsbeghenn@gmail.com",
+        "country":{
+            "name":"Alemania",
+            "region":"latam"
+        },
+        "company":"Telecom",
+        "position":"Developer",
+        "preferredChannel":{
+            "instragram":"@jsbeghen456",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":25,
+        "avatar":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name":"Guillermina Budano",
+        "mail":"guibudano@gmail.com",
+        "country":{
+            "name":"Colombia",
+            "region":"latam"
+        },
+        "company":"Naranja",
+        "position":"Product",
+        "preferredChannel":{
+            "instragram":"@gbudano95",
+            "whatsapp":"+5493512334455"
+        },
+        "interest":25,
+        "avatar":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    }
+
+]

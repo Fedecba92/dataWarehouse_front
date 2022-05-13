@@ -1,0 +1,75 @@
+/*abstracts*/
+@import "./abstracts/variables";
+/*bases*/
+@import "./base/reset";
+@import "./base/base";
+/*layouts*/
+@import "./layout/navigation";
+@import "./layout/dashboard";
+
+/*pages*/
+@import "./pages/companies";
+@import "./pages/users";
+@import "./pages/login";
+@import "./pages/regions";
+
+html {
+  font-family: "Open-sans", sans-serif;
+}
+
+input {
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid $grey-color;
+}
+
+.select-input {
+  width: 190px;
+  height: 35.5px;
+  border: 1px solid $grey-border-color;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 3px;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.25s ease;
+
+  &:hover {
+    transform: translate(-1px, -1px);
+  }
+
+  &:active {
+    transform: translate(1px, 1px);
+  }
+}
+
+.button-primary {
+  background-color: $primary-color;
+  color: $just-white;
+  margin: 20px 0;
+}
+.button-terciary {
+  color: $primary-color;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+
+  &::after {
+    content: "*";
+    color: $primary-color;
+    font-weight: bold;
+    margin-left: 3px;
+  }
+}
